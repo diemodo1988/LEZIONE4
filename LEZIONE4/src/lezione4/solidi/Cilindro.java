@@ -42,5 +42,9 @@ public class Cilindro extends Solido {
 		double c = 0;
 		return c;
 	}
+	
+	public String toString(){
+	    return "raggio  " + raggio +" altezza  " + altezza;	
+	}
 
 }
